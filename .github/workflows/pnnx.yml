@@ -1,7 +1,7 @@
 name: pnnx
 on:
   push:
-    branches: [master]
+    branches: [master, run-all-test]
     paths:
     - '.github/workflows/pnnx.yml'
     - 'src/layer/*'
