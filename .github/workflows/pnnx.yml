@@ -63,7 +63,7 @@ jobs:
       if: matrix.os != 'windows-latest'
       run: |
         cd tools/pnnx
-        cd build && ctest -C Release --output-on-failure -R test_nn_Conv
+        cd build && ctest -C Release --output-on-failure
 
   build:
     runs-on: [self-hosted, linux, ubuntu25]
